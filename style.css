@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    
+    margin: 0;
+    line-height: 1.8em;
+    font-family: 'Raleway';
+    font-size: 16px;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: fixed;
+}
+header{
+    padding: 2em;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+h1{
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+header img{
+    border-radius: 50%;
+    max-width: 150px;
+    border-width: 1;
+    border-color: white;
+    border-style: solid;
+}
+ section{
+    margin: 1em;
+    padding: 1em;
+}
+ header section{
+    margin: 0 auto;
+    max-width: 640px;
+}
+ .fab {
+    border: 1.5px solid white;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px;
+    text-align:center;
+}
+  a .fab{
+    color: white;
+}
+  a{
+    text-decoration: none;
+}
+  a:hover{
+    opacity: 0.5;
+}
+  .skills{
+      color: white;
+   position:absolute 1px;
+   float: right;
+   width: 955px;
+   height: 435px;
+   border-style: solid;
+   border-color: white;
+   text-align:left;
+ 
+   
+}
+  .personal{
+    color: white;
+    position: absolute;
+    float: left;
+    width: 955px;
+    height: 435px;
+    border-style: solid;
+    border-color: white;
+    text-align:left;
+    
+    
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+li{
+    
+    padding-left: 350px;
+    list-style-type: none;
+}
+li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color: #ecf5f5;
+}
+ul{
+    padding: 20px;
+}
+  
+  
+ 
